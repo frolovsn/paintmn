@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мария Радзивил | Художник</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-container">
+    <a href="#" class="logo">М. Радзивил</a>
+    <nav class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="#about">О художнике</a></li>
+        <li><a href="#philosophy">Стиль и философия</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+        <li><a href="#experience">Опыт и выставки</a></li>
+        <li><a href="#diplomas">Дипломы</a></li>
+        <li><a href="#achievements">Достижения</a></li>
+        <li><a href="#exhibitions">Выставки и новости</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+    <button class="mobile-menu-toggle" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero-section">
+  <div class="hero-content">
+    <h1>Мария Николаевна Радзивил</h1>
+    <p class="subtitle">Художник, член Евразийского союза художников</p>
+    <p class="hero-location">Иваново, Россия</p>
+    <p class="slogan">«Звуки холста: против цифровой тишины»</p>
+  </div>
+</section>
+
+<section id="about" class="content-section">
+  <div class="container">
+    <h2>О художнике</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="lead">Мастер импрессионистического реализма, чьи полотна захватывают душу искренней эмоциональной глубиной и поэтической красотой повседневного.</p>
+        <p>Любимые жанры — портрет, городской пейзаж и сказочно-былинный эпос — оживают в ее работах под мазками масла, передавая то, что удивляет, трогает и заставляет остановиться. Её творчество — вечная погоня за неуловимым, где идея вынашивается, перерождается и часто превосходит замысел.</p>
+        <blockquote class="quote">«Скольжение красок по холсту — это сакральное и пьянящее таинство, где звучание рождается внезапно, и важно вовремя остановиться, чтобы не убить его»</blockquote>
+        <p>Мария Радзивил — признанный мастер с многолетней практикой, чьи работы украшают частные коллекции в России и за рубежом. На сегодняшний день проведено 4 персональные выставки, а участие в десятках областных, городских и международных выставках подтверждает ее статус.</p>
+      </div>
+      <div class="about-image">
+        <img src="images/ma.jpg" alt="Мария Радзивил">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="philosophy" class="content-section" style="background: #fff;">
+  <div class="container">
+    <h2>Художественный стиль и философия</h2>
+    <div class="philosophy-grid">
+      <div class="philosophy-image">
+        <img src="images/artist-portrait.jpg" alt="Рабочий процесс">
+      </div>
+      <div class="philosophy-text">
+        <p>Импрессионистический реализм Марии Радзивил сочетает точность реальности с вибрацией света и эмоций. Улицы старинных городов, натюрморты, сцены из жизни, портреты и мифологические мотивы наполнены поэтизацией бытия.</p>
+        <p>Что такое «Чёрный квадрат» Малевича? Это декларация «Ребята, всё-кончилось». Малевич правильно тогда сказал, суммируя глобальную деформацию и слом, отражённые прежде в кубизме. Но ведь трудно с этим смириться. Поэтому и началось: дадаизм, сюрреализм, «давайте вещи мира столкнём в абсурдном сочетании» и поскакало нечто на кузнечиковых ножках. И дальше, и дальше... уже концептуализм…</p>
+        <p>Но это всё не то, это упражнения вокруг пустоты: чего бы такого сделать, чтобы все удивились и не обсмеяли бы.</p>
+        <div class="philosophy-quote-box">
+          «В эпоху упрощения Мария отстаивает подлинник как источник эмоционального тона, отвергая индифферентность к культуре.»
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="content-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Портфолио</h2>
+      <button class="collapse-btn sticky-collapse" data-target="portfolio-content" data-section="portfolio">Свернуть ▲</button>
+    </div>
+    <div id="portfolio-content" class="collapsible-content">
+      <div id="portfolio-filters" class="portfolio-filters"></div>
+      <div id="portfolio-subfilters" class="sub-filters"></div>
+      <div id="portfolio-grid" class="portfolio-grid"></div>
+      <div class="portfolio-load-more">
+        <button id="load-more-btn" class="load-more-btn">Показать ещё работы</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="content-section" style="background: #fff;">
+  <div class="container">
+    <h2>Профессиональный опыт и выставки</h2>
+    <ul class="exhibition-list">
+      <li><span class="exhibition-date">6–11 августа 2024</span><span class="exhibition-name">Международная выставка-конкурс Современного искусства «Санкт-Петербургская неделя искусств»</span></li>
+      <li><span class="exhibition-date">22–29 сентября 2024</span><span class="exhibition-name">Russian Art Show in China: Russian Soul</span></li>
+      <li><span class="exhibition-date">6–15 декабря 2024</span><span class="exhibition-name">XXXVI Международная выставка-конкурс «Российская неделя искусств»</span></li>
+      <li><span class="exhibition-date">3–9 марта 2025</span><span class="exhibition-name">Международная выставка-конкурс «Женский образ»</span></li>
+      <li><span class="exhibition-date">12–22 марта 2025</span><span class="exhibition-name">Международный проект «Российская Премия Искусств»</span></li>
+      <li><span class="exhibition-date">2019–2024</span><span class="exhibition-name">Региональные вернисажи: «Новогодний вернисаж», «Весенние образы», «Снежная палитра-3», «Новогоднее настроение»</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="diplomas" class="content-section">
+  <div class="container">
+    <h2>Дипломы и благодарности</h2>
+    <div class="diploma-carousel">
+      <button class="carousel-btn prev" aria-label="Предыдущий">❮</button>
+      <div id="diploma-track" class="diploma-track"></div>
+      <button class="carousel-btn next" aria-label="Следующий">❯</button>
+    </div>
+  </div>
+</section>
+
+<section id="achievements" class="content-section" style="background: #fff;">
+  <div class="container">
+    <h2>Достижения и коллекции</h2>
+    <div class="achievements-grid">
+      <div class="achievement-card">
+        <h3>Евразийский союз художников</h3>
+        <p>Действующий член союза</p>
+      </div>
+      <div class="achievement-card">
+        <h3>Частные коллекции</h3>
+        <p>Работы хранятся в России, Китае и Европе</p>
+      </div>
+      <div class="achievement-card">
+        <h3>Международные конкурсы</h3>
+        <p>Регулярное участие и награды</p>
+      </div>
+      <div class="achievement-card">
+        <h3>Персональные выставки</h3>
+        <p>4 самостоятельных проекта</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="exhibitions" class="content-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Выставки и новости</h2>
+      <button class="collapse-btn sticky-collapse" data-target="exhibitions-content" data-section="exhibitions">Свернуть ▲</button>
+    </div>
+    <div id="exhibitions-content" class="collapsible-content">
+      <div id="exhibitions-grid" class="exhibitions-grid"></div>
+      <div class="exhibitions-load-more">
+        <button id="load-more-exhibitions" class="load-more-btn">Показать ещё</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="content-section" style="background: #fff;">
+  <div class="container">
+    <h2>Связаться с художником</h2>
+    <p style="text-align:center; margin-bottom: 2rem; color:#666;">Для приобретения работ, сотрудничества или вопросов:</p>
+    <form id="contact-form" class="contact-form">
+      <div class="form-group">
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" name="name" required placeholder="Иван Петров">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="example@mail.ru">
+      </div>
+      <div class="form-group">
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" required placeholder="Интересует картина «Утренний Петербург»..."></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Отправить сообщение</button>
+      <div id="form-success" class="form-success">Спасибо! Ваше сообщение успешно отправлено. Мы свяжемся с вами в ближайшее время.</div>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <h3>Контакты</h3>
+    <p>Иваново, Россия</p>
+    <p><a href="mailto:maria@rash.su">maria@rash.su</a></p>
+    <p class="copyright">© <span id="year"></span> Мария Николаевна Радзивил. Все права защищены.</p>
+  </div>
+</footer>
+
+<div id="lightbox" class="lightbox">
+  <button class="lightbox-close" aria-label="Закрыть">×</button>
+  <button class="lightbox-prev" aria-label="Предыдущая">❮</button>
+  <button class="lightbox-next" aria-label="Следующая">❯</button>
+  <div class="lightbox-content">
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-info">
+      <h3 id="lightbox-title"></h3>
+      <p id="lightbox-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="portfolio-data.js"></script>
+<script src="diplomas-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
